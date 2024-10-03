@@ -12,7 +12,6 @@ const AdminLayout = ({ children }: { children: ReactNode }) => {
   const closeSidebar = () => {
     setIsSidebarOpen(false);
   };
-
   return (
     <div className="flex">
       <button

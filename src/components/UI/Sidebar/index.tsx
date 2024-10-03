@@ -19,7 +19,7 @@ const Sidebar = ({ closeSidebar }: { closeSidebar: () => void }) => {
   }, []);
 
   if (!isClient) {
-    return "Loading....";
+    return <div>Loading....</div>;
   }
 
   return (
